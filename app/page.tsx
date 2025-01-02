@@ -1,23 +1,15 @@
-
-import Nav from "./components/Nav"
-
-
-
-// export default function Page() {
-//     return (
-//       <>
-//         <h1>Morning, Next.js!</h1>
-//         <Button>
-//       </>
-//     )
-//   }
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 
-  export default function Page() {
-    return (
-      <>
-        <Nav/>
-      
-      </>
-    )
-  }
+
+export default function Page() {
+  return (
+    <>
+      <Nav />
+      <Header />
+      <Footer />
+    </>
+  );
+}
